@@ -1,0 +1,130 @@
+.SecaoSobre{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerSobre{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.containerQuemSomas{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+.containerQuemSomasSubtitulo{
+    font-size: 28px;
+    color: #000;
+}
+.containerQuemSomasParagrafo{
+    font-size: 22px;
+    line-height: 36px;
+    color: #4a4a4a
+}
+.containerCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerCardsDIvisao{
+    display: flex
+}
+.Card{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid #C4C4C4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerCardsImagem{
+    width: 100%;
+    height: 100%;
+}
+.containerCardsSubtitulo{
+    padding-top: 35px;
+    font-size: 25px;
+    color: #000;
+}
+.containerCardsParagrafo{
+    padding: 0 8px 35px 8px;
+    font-size: 21px;
+    color: #4a4a4a;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .SecaoSobre,
+    .containerSobre,
+    .containerQuemSoma{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .containerQuemSomasSubtitulo{
+        font-size: 22px;
+    }
+    .containerQuemSomasParagrafo{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+    }
+    .containerCards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .containerCardsDIvisao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Card{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px){
+    .containerSobre,
+    .containerCards,
+    .containerCardsDIvisao,
+    .containerQuemSomas{
+        width: 100%;
+        padding: 0 5px;
+    }
+    .containerCardsSubtitulo{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .containerQuemSomas,
+    .containerSobre,
+    .containerCards{
+        width: 100%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (min-width: 1025px){
+    .containerQuemSomas{
+        padding: 0 70px;
+    }
+}

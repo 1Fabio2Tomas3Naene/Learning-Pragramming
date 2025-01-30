@@ -1,0 +1,66 @@
+.containerTopoImagem{
+    width: 200px;
+    height: 50px;
+}
+.containerTopoNavegacao{
+    width: 300px;
+}
+.containerTopoNavegacaoLista{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerTopoNavegacaoLista a{
+    font-family: 20px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+.containerTopoNavegacaoLista a:hover{
+    color: #05031b;
+}
+.containerTopo{
+    width: 1024px;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerHeader{
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .containerTopo{
+        display: none;
+    }
+    .containerTopo{
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .containerTopoImagem{
+        width: 150px;
+        height: 50px;
+        padding-bottom: 10px;
+    }
+    .containerTopoNavegacao{
+        width: 97%;
+        padding-top: 10px;
+        border-top: 2px solid #C4C4C4;
+    }
+    .containerTopoNavegacaoLista{
+        display: none;
+    }
+    .containerTopoNavegacaoLista{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

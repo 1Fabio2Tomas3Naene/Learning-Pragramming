@@ -1,0 +1,116 @@
+.containerPrincipal{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #05031b;
+    color: #F8F7FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerRedes{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.containerRedesDivisao{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerFaleConosco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+.containerFaleConoscoSubtitulo{
+   font-size: 36px;
+}
+.containerFaleConoscoParagrafo{
+    font-size: 22px;
+    line-height: 36px;
+}
+.secaoContatoContatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.secaoContatoSubtitulo{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.secaoContatoImagem{
+    width: 30px;
+    height: 30px;
+}
+.secaoContatoParagrafo{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .containerRedes{
+        width: 100%;
+    }
+    .containerRedesDivisao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .containerFaleConosco{
+        padding: 0 15px;
+    }
+    .containerFaleConoscoSubtitulo{
+        font-size: 22px;
+    }
+    .containerFaleConoscoParagrafo{
+        font-size: 18px;
+        text-align: center;
+    }
+    .secaoContatoSubtitulo{
+        font-size: 20px;
+    }
+    .secaoContatoImagem{
+        width: 20px;
+        height: 20px;
+    }
+    .secaoContatoParagrafo{
+        font-size: 16px;
+    }
+    .secaoContatoContatos{
+        border: 1px solid #4a4a4a;
+        padding: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .containerRedes{
+        width: 100%;
+    }
+    .secaoContatoContatos{
+        border: 1px solid #4a4a4a;
+        padding: 15px;
+    }
+    .containerFaleConosco{
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .containerFaleConosco{
+        padding: 0 40px;
+    }
+    .secaoContatoContatos{
+        border: 1px solid #4a4a4a;
+        padding: 15px;
+    }
+}

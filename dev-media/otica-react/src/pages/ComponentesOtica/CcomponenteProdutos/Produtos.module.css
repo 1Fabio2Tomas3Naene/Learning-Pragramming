@@ -1,0 +1,160 @@
+.containerNossosProdutos{
+    text-align: center;
+}
+.containerNossosProdutos h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #000;
+}
+.Paragrafo{
+    font-size: 22px;
+}
+.containerNossosProdutos p{
+    line-height: 45px;
+}
+.containerCardsImagem{
+    width: 300px;
+    height: 100px;
+}
+.Card{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #F6F6F6;
+    box-shadow: 2px 2px 15px 0 #C4C4C4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerCardsSubtitulo{
+    font-size: 28px;
+    color: #000;
+}
+.containerCardsPreco{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.containerCards{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.containerCardsDivisao{
+    display: flex;
+    gap: 40px;
+}
+.containerCards{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerProdutos{
+    width: 100%;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  80px;
+}
+.containerLista{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ParagrafoLista{
+    font-size: 24px;
+    margin-right: 50px;
+}
+.containerUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerListaLi{
+    font-size: 20px;
+    line-height: 36px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .containerNossosProdutos{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .containerNossosProdutos h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .containerProdutos p{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+    }
+    .containerCardsDivisao{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .containerCardsImagem{
+        width: 150px;
+        height: 80px;
+    }
+    .containerCards{
+        width: 100%;
+    }
+    .Card{
+        width: 100%;
+    }
+    .containerCardsSubtitulo{
+        font-size: 22px;
+    }
+    .containerLista{
+        width: 100%;
+    }
+    .ParagrafoLista{
+        margin: 0;
+        padding-left: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .containerUl{
+        margin-left: 30px;
+    }
+    .containerListaLi{
+        font-size: 18px;
+        text-align: left;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .containerNossosProdutos h2{
+        font-size: 36px;
+    }
+    .containerCards,
+    .containerCardsDivisao{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .containerCardsDivisao,
+    .containerNossosProdutos{
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .containerNossosProdutos{
+        padding: 0 30px;
+    }
+}

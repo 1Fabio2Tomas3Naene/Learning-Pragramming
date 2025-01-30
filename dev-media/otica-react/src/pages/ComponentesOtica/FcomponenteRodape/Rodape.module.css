@@ -1,0 +1,10 @@
+.containerRodape{
+    width: 100%;
+    padding: 30px;
+    background-color: #000;
+}
+.containerRodapeParagrafo{
+    font-size: 100%;
+    text-align: center;
+    color: #F8F7FF;
+}
