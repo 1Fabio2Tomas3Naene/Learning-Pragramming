@@ -1,0 +1,57 @@
+.SecaoBanner{
+    height: 80vh;
+    background-image: url('../img/banner-sobre.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecaoSobre,
+.SecaoBanner,
+.SecaoImagens{
+    width: 100%;
+}
+.SecaoBannerSubtitulo{
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-shadow: 5px 5px #474747;
+}
+.SecaoSobre,
+.SecaoSobreInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SecaoSobre{
+    margin-top: 80px;
+    gap: 100px;
+}
+.SecaoSobreInfo{
+    width: 1024px;
+    text-align: center;
+    gap:  30px;
+}
+.SecaoSobreInfoSubtitulo{
+    font-size: 30px;
+}
+.SecaoSobreInfoDestaque{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.SecaoSobreInfoParagrafo{
+    font-size: 22px;
+    line-height: 36px;
+}
+.SecaoImagens{
+    height: 60vh;
+    display: flex;
+}
+.SecaoImagensImagem{
+    width: 50%;
+    height: 100%;
+}

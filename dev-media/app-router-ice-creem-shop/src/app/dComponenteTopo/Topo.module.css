@@ -1,0 +1,36 @@
+.ContainerTopo{
+    width: 100%;
+    height: 8vh;
+    background-color: #F9DB79;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+.ContainerTopoNav,
+.ContainerTopoLarguraLimites,
+.ContainerTopo{
+    display: flex;
+    align-items: center;
+}
+.ContainerTopoNav,
+.ContainerTopoLarguraLimites{
+    justify-content: space-between
+}
+.ContainerTopoLarguraLimites{
+    width: 1024px;;
+}
+.ContainerTopoLogo{
+    width: 130px;
+    height: 90px;
+}
+.ContainerTopoNav{
+    width: 250px;
+}
+.ContainerTopoNav a:hover{
+    color: #c57aab;
+}
+.ContainerTopoNavLink{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}

@@ -1,0 +1,66 @@
+.SecaoBanner{
+    height: 80vh;
+    background-image: url('../img/banner-sabores.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecaoSabores,
+.SecaoBanner{
+    width: 100%;
+}
+.SecaoBannerSubtitulo{
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #fff;
+    text-shadow: 5px 5px #474747;
+}
+.SecaoSabores{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SecaoSaboresSubtitulo{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.ContainerSabores{
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Card{
+    flex: 1 1 calc(30%);
+    height: 400px;
+    box-shadow: 5px 5px 10px 0px #D9DDE1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.CardImagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.CardDescricao{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.CardParagrafo,
+.CardDescricao{
+    font-size: 18px;
+}
+.CardParagrafo{
+    line-height: 32px;
+    padding: 0 30px;
+}

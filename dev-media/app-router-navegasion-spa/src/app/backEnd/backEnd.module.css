@@ -1,0 +1,36 @@
+.containerMain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerTexto{
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+.containerTextoSubtitulo{
+    font-size: 30px;
+}
+.containerTextoParagrafo{
+    font-size: 22px;
+    line-height: 36px;
+}
+.Link{
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #008000;
+    color: #fff;
+}
+.containerTexto a:hover{
+    color: #000;
+}

@@ -1,0 +1,34 @@
+.containerPrimcipal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerContaudo{
+    max-width: 1024px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.containerContaudoSubtitulo{
+    font-size: 30px;
+}
+.containerContaudoParagrafo{
+    font-size: 22px;
+    line-height: 36px;
+}
+.Link{
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #ffa500;
+    color: #fff;
+}
+.containerContaudo a:hover{
+    color: #000;
+}

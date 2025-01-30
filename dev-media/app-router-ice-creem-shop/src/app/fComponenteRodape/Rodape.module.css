@@ -1,0 +1,42 @@
+.ContainerRodape{
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    background-color: #000;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+.ContainerRodape,
+.SecaoCards{
+    align-items: center;
+    display: flex;
+}
+.ContainerRodapeLogo{
+    width: 120px;
+    height: 100px;
+}
+.SecaoCards{
+    width: 1024px;
+    padding: 50px 0 80px 0;
+    justify-content: space-between;
+}
+.ContainerRodapeCard{
+    padding: 15px;
+    border: 1px solid #808080;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 10px;
+}
+.ContainerRodapeCardSubtitulo{
+    font-size: 22px;
+}
+.ContainerRodapeCardParagrafo{
+    font-size: 18px;
+}
+.ContainerRodapeDestaque{
+    font-weight: bold;
+    color: #F9DB79;
+    text-transform: uppercase;
+}
