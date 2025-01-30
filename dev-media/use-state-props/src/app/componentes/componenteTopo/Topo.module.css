@@ -1,0 +1,25 @@
+.containerTopo{
+    width: 100%;
+    height: 25vh;
+    border-bottom: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerTopoTitulo{
+    font-size: 60px;
+}
+.containerTopoParagrafo{
+    font-size: 24px;
+}
+.containerTopoBotaoMudarAnimal{
+    border-style: none;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 22px;
+}

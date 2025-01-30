@@ -1,0 +1,17 @@
+.containerInformacaoAnimal{
+    width: 600px;
+    height: 120px;
+    border: 6px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.containerInformacaoAnimalTitulo{
+    font-size: 26px;
+}
+.containerInformacaoAnimalParagrafo{
+    font-size: 22px;
+}

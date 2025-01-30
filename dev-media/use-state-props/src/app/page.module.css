@@ -1,0 +1,13 @@
+.containerEnvolvedor{
+    background-color: aqua;
+}
+/*ESTILOS DO CORPO*/
+.containerPrincipal{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
