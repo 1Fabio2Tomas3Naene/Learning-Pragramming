@@ -1,0 +1,35 @@
+.containerPrincipal{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+.containerBg,
+.containerPrincipal{
+    display: flex;
+    align-items: center;
+}
+.containerBg{
+    width: 500px;
+    height: 600px;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bgVermelho{
+    background-color: #ff0000;
+}
+.bgAzul,
+.bgVermelho{
+    width: 300px;
+    height: 300px;
+}
+.bgAzul{
+    background-color: #000fff;
+}
+.containerBgBotao{
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #808080;
+    color: #000;
+}

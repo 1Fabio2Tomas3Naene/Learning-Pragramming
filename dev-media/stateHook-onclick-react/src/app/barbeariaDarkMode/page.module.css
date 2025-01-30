@@ -1,0 +1,95 @@
+
+.containerTopo{
+    height: 10vh;
+}
+.containerInfo,
+.containerTopo,
+.info{
+    justify-content: center;
+}
+.containerPrincipal,
+.containerTopo,
+.containerBanner{
+    width: 100%;
+}
+.containerTopoLarguraLimite,
+.containerTopo,
+.containerInfo,
+.info{
+    display: flex;
+    align-items: center;
+}
+.containerTopoLarguraLimite,
+.info{
+    width: 1042px;
+}
+.containerTopoLarguraLimite{
+    justify-content: space-between;
+}
+.containerTopoLarguraLimiteImagem{
+    width: 150px;
+    height: 150px;
+}
+.containerTopoLarguraLimiteBotao{
+    width: 120px;
+    padding: 15px 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #B2987D;
+    background-color: #fff;
+}
+.containerTopoLarguraLimiteModeTexto{
+    font-size: 18px;
+    font-weight: bold;
+}
+.containerTopoLarguraLimiteIcone{
+    width: 30px;
+    height: 30px;
+}
+.containerBanner{
+    height: 40vh;
+    background-image: url('./img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerInfo{
+    margin-top: 100px;
+}
+.info{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.containerInfoTitulo{
+    font-size: 38px;
+    font-weight: bold;
+    color: #000;
+}
+.containerInfoDestaque{
+    font-size: 22px;
+    font-weight: bold;
+}
+.containerInfoParadrafo{
+    font-size: 24px;
+    line-height: 36px;
+}
+.containerInfoAssinatura{
+    font-family: "Great Vibes", serif;
+    font-size: 50px;
+    color: #B2987D;
+}
+
+.darkMode{
+    background-color: #000;
+}
+.darkMode .containerTopo img{
+    filter: invert(1) brightness(2);
+}
+.darkMode .containerInfoTitulo{
+    color: #fff;
+}
+.darkMode .containerInfoParadrafo{
+    color: #fff;
+}
