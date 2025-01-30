@@ -1,0 +1,42 @@
+/*SINTAX DO USO DAS CORES HEXDECIMAIS*/
+#hex-color{
+    color: #ff0000;
+}
+
+/*SINTAX DO USO DAS Cores EM hexadecimais com transparencia */
+#hex-color-trans{
+    background-color: #ff000010;
+}
+
+/*SINTAX DO USO DAS CORES EM RGB, rgb(red, green, blue) ::NB = PODEMOS USAR UM VALOR INTEIRO OU PERCENTUAL : color: rgb(0, 25%, 0) */
+#rgb-color{
+    color: rgb(0, 255, 0);
+}
+
+/* SINTAX DO USO DA CORES EM RGBA, rgba(red, green, blue, alpha)*/
+#rgba-color{
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+/*SINTAX DO USO DAS CORS EM HSL, hsl(hue, saturation, lightness)*/
+#hsl-color{
+    background-color: hsl(120, 100%, 50%);
+}
+
+/*SINTAX DO USO DAS CORES EM HSLA, hsla(hue, saturation, lightness, alpha)*/
+#hsla-color{
+    background-color: hsla(120, 100%, 25%, 0.3);
+}
+
+/*SINTAX DO USO DAS CORES NOMINAIS EX: color: red;*/
+#nominal-colors{
+    background-color: red;
+}
+
+/*SINTAX DO USO DA PALAVRA-CHAVE currentColor */
+.border-current-color{
+    width: 300px;
+    height: 50px;
+    color: #0000ff;
+    border: 1px solid currentColor;
+}

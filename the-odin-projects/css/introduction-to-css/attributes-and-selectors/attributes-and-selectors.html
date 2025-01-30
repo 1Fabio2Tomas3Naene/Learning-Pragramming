@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>atributos, seletores css</title>
+        <link rel="stylesheet" href="sttyles.css">
+    </head>
+    <body>
+        <!--SELETORES = SAO ELEMENTOS HTML QUE AS REGRAS CSS SE APLICAM-->
+        <h1>TYPE SELECTORS</h1>
+        <br><br>
+
+        <div>Hello, world!</div>
+        <div>Hello again!</div>
+        <div>Hi...</div>
+        <div>Okay, bye.</div>
+
+        <br><br>
+        <h2>CLASS SELECTORS</h2>
+        <!--SELETORES DE CLASSE = SELECIONARAO O ELEMENTO HTML PELO NOME DA CLASSE / class="nome" /-->
+        <div class="alert-text">Please agree to our terms of service.</div>
+
+        <br><br>
+        <h3>ID SELECTORS</h3>
+        <!--SELETORS DE id == SECIONAM OS ELEMENTOS PELO NOME DO id // id="nome" //-->
+        <div id="title">My Awesome 90's Page</div>
+
+        <br><br>
+        <p>GROUP SELECTOR</p>
+        <!--SELETORE DE AGRUPAMENTO == E TECNICA QUE USAMOS PARA COLOCAR O MESMO ESTILO EM MAIS DE UM ELEMENTO DIFERENTES CONTENDO NOMES DE class="" E id="" DIFERENTES SEPARANDO OS NOMES COM VIRGULAS-->
+        <div class="red">I will have the same style with another element</div>
+        <br>
+        <div class="unred">I will have the same style with another element</div>
+
+        <br><br>
+        <p>CHAIN ​​SELECTORS</p>
+        <!--SELETORES DE ENCADEAMENTO-->
+        <div>
+            <div class="section header">Latest Posts</div>
+            <p class="section review">This is where a preview for a post might go.</p>
+        </div>
+
+        <br><br>
+        <p>DESCENDING COMBINER</p>
+        <!--COMBINADOR DESCENDENTE == NOS PERMITE COMBINAR FIRERENTES SELETORES PARA ALCANCAR UM OBJETIVO, MOSTRANDO UM GRAU DE RALACIONAMENTO ENTRE ELES-->
+        <div class="ancestral">
+            <div class="filho">I AM THE SON OF THE ELEMENT WITH THE ANCESTRAL CLASS</div>
+            <div class="filho">I AM THE SON OF THE ELEMENT WITH THE ANCESTRAL CLASS</div>
+        </div>
+        <div class="filho">I AM NOT A SON OF THE ELEMENT WITH THE ANCESTRAL CLASS</div>
+
+        <br><br>
+    </body>
+</html>

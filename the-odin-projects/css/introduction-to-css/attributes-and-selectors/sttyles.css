@@ -1,0 +1,52 @@
+/* * = ESTE CHAMA-SE SELETOR UNIVERSAL ESTA REGRAS CSS SERA APLICADA A TODOS ELEMENTOS NA PAGINA */
+            /* color = DIFINE A COR DO TEXTO */
+            /* *{
+                color: purple;
+            }*/
+
+            /*SELOR DE TAG OU DE ELEMENTO OU DE TIPO == E AQUELE QUE SETECIONARA O ELEMENTO HTML PELO NOME DA TAG*/
+            div{
+                color: black;
+            }
+
+            /*ESTA E A SINTAX DO SELETOR DE CLASS / .alert-text{} / */
+            .alert-text{
+                color: red;
+            }
+
+            /*ESTA E A SINTAX DO SELETOR DE ID = #title{} */
+            /*background-color: ; == DIFINE A COR DE FUNDO */
+            #title{
+                background-color: red;
+            }
+
+            /*SINTAX DE SELETOR DE AGRUPAMENTO / .red, .unred{estilos} / */
+            .red,
+            .unred{
+                background-color: blue;
+            }
+            .red{
+                /*SEU PROPRIO ESTILO */
+                color: red;
+            }
+            .unred{
+                /*SEU PROPRIO ESTILO */
+                color: white;
+            }
+
+            /*SINTAX DO SELETORES DE ENCADEAMENTO*/
+            .section{
+                background-color: aqua;
+            }
+            .section.header{
+                color: blueviolet;
+            }
+            .section.review{
+                color: brown;
+            }
+
+            /*SINTAX DO USO DE COMBINADOR DE DESCENDENTES*/
+
+            .ancestral .filho{
+                color: chocolate;
+            }

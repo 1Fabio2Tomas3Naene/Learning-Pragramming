@@ -1,0 +1,40 @@
+/*font-family: ; == DA UMA FONT AO TEXTO, SE O NOME DA FONTE VIVER MAIS DE UMA PAPAVRA DE ESTAR ENTRE ASPAS CASO CONTRARIO NAO*/
+#title{
+    font-family: Arial;
+}
+#paragrapho{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*font-size: ; == DIFINE UMA TAMANHO AO TEXTO SE SERA GRANDE OU NAO*/
+#font-size{
+    font-size: 30px;
+}
+
+/*font-weight: ; == DIFINE O PESO DA FONT, NORMALMENTE DEIXANDO O TEXTO EM NEGRITO*/
+/*O SEU VALOR PODE SER bold = negrito ou um numero de 1 a 1000 */
+#font-weight{
+    font-weight: bold;
+}
+#font-weight-number{
+    font-weight: 700;
+}
+
+/*text-align: ; == ALINHA O TEXTO DO ELEMENTO HORIZONTALMENTE*/
+/*OS SEUS VALORES SAO: left = esquerda; center = centro; right = direita*/
+#text-align-left{
+    text-align: left;
+}
+#text-align-center{
+    text-align: center;
+}
+#text-align-right{
+    text-align: right;
+}
+
+/*width: ; = DIFINE A LARGURA DO OBJETO; height: ; == DIFINE A ALTURA DO OBJETO */
+/* OS VALORES PODEM SER NUMERICOS OU auto = QUI RECEBE A METADE DO WIDTH OU DO HEIGHT */
+#width-height-img{
+    width: 1000px;
+    height: 500px;
+}

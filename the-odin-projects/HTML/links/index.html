@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>LINKS</title>
+    </head>
+    <body>
+        <h1>Homepage</h1>
+        <br><br>
+
+        <h2>LINKS ABSOLUTOS</h2>
+        <p>TAG ancora &lt;a&gt;&lt;/a&gt;</p>
+        <!--A TAG ancora <a> DESTA FORMA SERA COMO UM TEXTO SIMPLES-->
+        <a>About The Odin Project</a>
+
+        <br><br>
+        <p>USO DO ATRIBUTO href=""</p>
+        <!--O ATRIBUTO href="" E SEU VALOR INFORMA A ancora <a> PARA ONDE DEVE NOS LEVAR AO CLICARNOS NELA-->
+            <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+
+            <br><br>
+            <p>USO DO ATRIBUTO target="_self"</p>
+            <!--O ATRIBUTO target="_self" ELE E PADRAO PODEMOS COLOCAR OU NAO MAS MESMO ASSIM TERA EFEITO. FAZ COM QUE O LINK SEJA ABERTO NA ABA ATUAL DO NAVEGADOR-->
+                <a href="https://www.theodinproject.com/about" target="_self" >About The Odin Project</a>
+
+                <br><br>
+                <p>USO DO ATRIBUTO target="_blank"</p>
+                <!--O ATRIBUTO target="_blank" ABRE O LINK NA NOVA ABA DO NAVEGADOR-->
+        <a href="https://www.theodinproject.com/about" target="_blank">About The Odin Project</a>
+
+        <br><br>
+        <!--ESSES VALORES noopener e noreferrer DO ATRIBUTO rel="": noopener= e USADO PARA INPEDIR A NOVA ABA INTERAGIR OU ACESSAR A PAGINA ORIGINAL, INPEDINDO O USO DE JS PARA MANIBULAR A PAGINA ORIGINAL GARANTIDO SEGURANCA CONTRA fishings -->
+        <!--O VALOR noreferrer == OFERECE PRIVACIDADE OU SEGURANCA. IMPEDINDO QUE A NOVA ABA SAIBA DE ONDE O USUARIO VEIO (ESCONDENDO ASSIM O REFERENCIADOR), POSSUE TAMBEM O MESMO COMPORTAMENTO NO noopener -->
+        <p>USO DO ATRIBUTO rel="noopener noreferrer</p>
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+
+        <br><br>
+        <h3>LINKS RELATIVOS</h3>
+        <!--ESTA E A CRIACAO DE UM LINK RELATIVO QUE LEVARA PARA OUTRA PAGINA DO MESMO SITE-->
+        <a href="../odin_images/index.html">About page</a>
+    </body>
+</html>

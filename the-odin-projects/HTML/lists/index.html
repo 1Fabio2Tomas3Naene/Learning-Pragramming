@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Trabalhando com listas</title>
+    </head>
+    <style>
+        .style_fist_unordered_list{
+            list-style-type: none;
+        }
+        .style_second_unordered_list{
+            list-style-type: disc;
+        }
+        .style_tird_unordered_list{
+            list-style-type: circle;
+        }
+        .style_fourth_unordered_list{
+            list-style-type: square;
+        }
+        .style_fist_ordered_list{
+            list-style-type: none;
+        }
+        .style_second_ordered_list{
+            list-style: decimal;
+        }
+        .style_tird_ordered_list{
+            list-style-type: decimal-leading-zero;
+        }
+        .style_fourth_ordered_list{
+            list-style-type: lower-alpha;
+        }
+        .style_fivth_ordered_list{
+            list-style-type: upper-alpha;
+        }
+        .style_sixth_ordered_list{
+            list-style-type: lower-roman;
+        }
+        .style_seventh_ordered_list{
+            list-style-type: upper-roman;
+        }
+        .style_tenth_ordered_list{
+            list-style-type: lower-latin;
+        }
+        .style_eleventh_ordered_list{
+            list-style-type: upper-latin;
+        }
+        .style_twelveth_ordered_list{
+            list-style-type: lower-greek;
+        }
+        .style_thirteenth_ordered_list{
+            list-style-type: georgian;
+        }
+        .style_fourteenth_ordered_list{
+            list-style-type: armenian;
+        }
+        .image_as_marker li{
+            list-style-type: none;
+        }
+        .image_as_marker li::before{
+            content: "";
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            display: inline-block;
+            background-image: url('./images/arrow.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .list_outside li{
+            list-style-position: outside;
+        }
+        .list_inside li{
+            list-style-position: inside;
+        }
+        .list_inherit{
+            list-style-position: inside;
+        }
+        .list_inherit li{
+            list-style-position: inherit;
+        }
+        .list_style1{
+            list-style: circle inside;
+        }
+        .list_style2{
+            list-style: upper-latin;
+        }
+        .style_horizontal li{
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .style_horizon li{
+            display: inline;
+            margin: 0 15px;
+        }
+        .style_float li{
+            float: left;
+            margin: 0 15px;
+        }
+    </style>
+    <body>
+        <h1>listas nao ordenadas</h1>
+        <!--LISTA NAO ORDENADA-->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <h2>listas ordenadas</h2>
+        <!--LISTA ORDENADA-->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <h3>Aninhamento nas listas</h3>
+        <!--ANIHAMENTO-->
+        <ul>
+            <li>
+                Xima
+                <ol>
+                   <li>Agua</li>
+                   <li>Farinha</li>
+                </ol>
+            </li>
+            <li>
+                soupa
+                <ol reversed>
+                    <li>Feijao</li>
+                    <li>esparguete</li>
+                    <li>couve</li>
+                    <li>oleo</li>
+                    
+                </ol>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                o que pode ficar na sala
+                <ul>
+                    <li>Mesa</li>
+                    <li>Sofa</li>
+                    <li>TV</li>
+                </ul>
+            </li>
+            <li>
+                O que pode ficar no quarto
+                <ul>
+                    <li>Cama</li>
+                    <li>Rede mosquitera</li>
+                    <li>Gaveta</li>
+                </ul>
+            </li>
+        </ul>
+        <ol>
+            <li>Nome</li>
+            <li>Apelido</li>
+            <li>
+                preenchimento
+                <ul>
+                    <li>Fabio</li>
+                    <li>Tomas</li>
+                </ul>
+            </li>
+            <li>residencia</li>
+            <li>Ocupacao</li>
+        </ol>
+        <!--ATRIBUTOS-->
+
+        <!--TYPE-->
+         <!-- ESTE VALOR 1 DO ATRIBUTO TYPPE E PADRAO QUANDO NAO USAMOS O TYPE OU NAO DIFINIMOSS NADA NELE -->
+          <h3>Uso do atributo (type)</h3>
+         <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+          <ol type="1">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+   
+   <!-- OS ITENS SERAO ORDENADOS USANDO LETRAS MINUSCULAS -->
+    <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+   </ol>
+        
+    <!-- OS ITENS SERAO ORDENADOS USANDO LETRAS Maiusculas -->
+     <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+   </ol>
+  
+  <!-- OS ITENS RESAO ORDENADOS USANDO NUMEROS ROMANOS MINUSCULOS -->
+<ol type="i">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+   
+   <!-- OS ITENS RESAO ORDENADOS USANDO NUMEROS ROMANOS MAIUSCULOS -->
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+   </ol>
+
+   <h3>Uso da propriedade (list-style-type)</h3>
+   <p>LISTAS NAO ORDENADAS</p>
+
+   <!--LIST-STYLE-TYPE LISTAS NAO ORDENADAS-->
+   <ul class="style_fist_unordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ul>
+
+   <ul class="style_second_unordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ul>
+
+   <ul class="style_tird_unordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ul>
+
+   <ul class="style_fourth_unordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ul>
+
+   <P>LISTAS ORDENADAS</P>
+
+   <ol class="style_fist_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_second_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_tird_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_fourth_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_fivth_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_sixth_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_seventh_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_tenth_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_eleventh_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_twelveth_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_thirteenth_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+   <ol class="style_fourteenth_ordered_list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+   </ol>
+<!-- USO DOS ATRIBUTOS start e resersed apenas nas listas ordenadas -->
+ <h3>usando os atributos atart e seversed</h3>
+   <ol start="8">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+  <ol reversed>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+  <!--USO DO ATRIBUTO VALUE QUE APENAS USADO NOS ITENS DA LISTA ORDENADA -->
+  <h3>ATRIBUTO VALUE</h3>
+  <ol>
+    <li>Item 1</li>
+    <li value="9">Item 2</li>
+    <li>Item 3</li>
+  </ol>
+
+  <!--LISTAS DE DESCRICAO -->
+  <h3>LISTAS DE DESCRICAO</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd>E uma linguagem de marcacao</dd>
+    <dt>CSS</dt>
+    <dd>E uma linguagem de estilizacao</dd>
+  </dl>
+
+<!--USANDO IMAGEM COMO MARCADOR NAS LISTAS NAO ORDENADAS-->
+<h3>USANDO IMAGEM COMO MARCADOR NAS LISTAS</h3>
+  <ul class="image_as_marker">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+ </ul>
+ <!--ESTILOS DE POSICIONAMENTO-->
+<h3>ESTILO DE POSICIONAMENTO</h3>
+<ul class="list_outside">
+    <li>Item 1 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </li>
+    <li>Item 2 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+    <li>Item 3 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+</ul>
+<ul class="list_inside">
+    <li>Item 1 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+    <li>Item 2 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+    <li>Item 3 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+</ul>
+<ul class="list_inherit">
+    <li>Item 1 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+    <li>Item 2 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+    <li>Item 3 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+</ul>
+<!--ABREVIACAO DE ESTILO DE TIPO E ESTILO DE POSICAO DAS LISTAS-->
+<h3>ABREVIACAO DE ESTILO DE TIPO E ESTILO DE POSICAO DAS LISTAS</h3>
+<ul class="list_style1">
+    <li>Item 1 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </li>
+    <li>Item 2 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+    <li>Item 3 <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+</ul>
+<ul class="list_style2">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<!--EXIBINDO LISTAS VERTICALMENTE OU HORIZONTALMENTE-->
+<h3>EXIBINDO LISTAS VERTICALMENTE OU HORIZONTALMENTE</h3>
+<ul class="style_horizontal">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+<ul class="style_horizon">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<!--LISTA FLUTUANTE OU HORIZONTAL COM OS MARCADORES OU ORDENADORES-->
+<h3>LISTA FLUTUANTE OU HORIZONTAL COM OS MARCADORES OU ORDENADORES</h3>
+<ul class="style_float">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+    </body>
+</html>
