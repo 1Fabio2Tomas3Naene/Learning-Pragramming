@@ -1,0 +1,14 @@
+.TopoEstilos{
+    width: 100%;
+    height: 8vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.TopoEstilos h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
