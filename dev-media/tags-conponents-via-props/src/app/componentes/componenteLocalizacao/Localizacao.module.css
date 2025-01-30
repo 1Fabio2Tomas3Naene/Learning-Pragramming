@@ -1,0 +1,17 @@
+.containerLocalizacao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.subtitulo{
+    font-size: 28px;
+}
+.destaque{
+    color: #937a34;
+}
+.Paragrafo{
+    font-size: 22px;
+}

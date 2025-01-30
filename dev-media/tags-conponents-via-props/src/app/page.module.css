@@ -1,0 +1,64 @@
+.containerClientes{
+    flex-direction: column;
+    gap: 40px;
+}
+.containerClientes,
+.Clientes,
+.containerInformacao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerInformacao{
+    height: 50vh;
+    margin: 80px 0;
+}
+.Clientes,
+.containerInformacao,
+.dentistas{
+    gap: 30px;
+}
+.Subtitulo{
+    font-size: 30px;
+}
+.destaque{
+    color: #937a34;
+}
+.lista,
+.endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+.li{
+   font-size: 22px;
+}
+.dentistaImagem{
+    width: 150px;
+    height: 120px;
+}
+.CardDentista,
+.dentistas{
+    display: flex;
+}
+.dentistas{
+    width: 100%;
+    flex-direction: column;
+}
+.CardDentista{
+    border: 1px solid #dcdcdc;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.dentistaParagrafo{
+    padding-right: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+.enderecoParagrafo{
+    text-align: center;
+    font-size: 20px;
+}

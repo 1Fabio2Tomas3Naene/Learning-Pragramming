@@ -1,0 +1,22 @@
+.Card{
+    width: 25%;
+    height: 100%;;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+.informacao{
+    height: 80%;
+    background-color: #fff;
+    margin: 0 15px 20px 15px;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo{
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
