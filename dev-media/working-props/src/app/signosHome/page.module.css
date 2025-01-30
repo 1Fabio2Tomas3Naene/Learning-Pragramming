@@ -1,0 +1,14 @@
+.containerSignos{
+    width: 1024px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.containerPrincipal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

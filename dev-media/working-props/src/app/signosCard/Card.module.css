@@ -1,0 +1,51 @@
+.Card{
+    width: 162px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 145px;
+    height: 160px;
+}
+.Titulo,
+.data{
+    color: #fff;
+}
+.Titulo{
+    font-size: 18px;
+    font-weight: bold;
+}
+.data{
+    font-size: 20px;
+}
+.tipoSigno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.signoAgua,
+.signoFogo,
+.signoTerra,
+.signoAr{
+    border-radius: 10px;
+}
+.signoAgua{
+    background-color:  #000fff;
+}
+.signoFogo{
+    background-color:#ff0000;
+}
+.signoTerra{
+    background-color: #8b4513;
+}
+.signoAr{
+    background-color: #b5b4b0;
+}

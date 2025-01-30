@@ -1,0 +1,13 @@
+.containerTopo{
+    width: 100%;
+    height: 8vh;
+    background-color:#4d538c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTopoTitulo{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
