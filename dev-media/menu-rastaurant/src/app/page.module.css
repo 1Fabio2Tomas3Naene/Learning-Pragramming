@@ -1,0 +1,31 @@
+.page,
+.main,
+.container_cards_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.page,
+.main{
+    width: 100%;
+}
+.container_cards_main{
+    width: 1400px;
+    
+}
+.container_cards{
+    width: 100%;
+    padding: 15px;
+    background-color: #f3f3f3;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container_cards_title{
+    font-size: 38px;
+    color: #daa520;
+    font-family: "Great Vibes", serif;
+}

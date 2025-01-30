@@ -1,0 +1,46 @@
+.card{
+    width: 340px;
+    height: 500px;
+    padding: 15px;
+    border: 1px solid #f6f8fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.card:hover{
+    background-color: #feb633;
+}
+.card:hover .card_data{
+    color: #000;
+}
+.card:hover .card_titulo{
+    color: #000;
+}
+.card:hover .card_empresa{
+    color: #000;
+}
+.card:hover .card_paragrafo{
+    color: #000;
+}
+.card_data,
+.card_empresa{
+    font-size: 18px;
+}
+.card_data,
+.card_empresa,
+.card_paragrafo{
+    color: #CCCCCC;
+}
+.card_titulo{
+    font-size: 28px;
+}
+.card_paragrafo{
+    font-size: 20px;
+    line-height: 36px;
+}
+.dark_mode .card_titulo{
+    color: #CCCCCC;
+}

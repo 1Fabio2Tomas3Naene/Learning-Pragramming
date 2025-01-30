@@ -1,0 +1,31 @@
+.comtainerTopo{
+    width: 100%;
+    height: 10vh;
+    padding: 0 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imag_logo{
+    width: 70px;
+    height: 50px;
+}
+.Botao{
+    border-style: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+.Icone{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.texto_label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dark_mode .comtainerTopo{
+    background-color: #252525;
+}

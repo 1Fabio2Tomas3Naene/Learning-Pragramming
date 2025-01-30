@@ -1,0 +1,38 @@
+.container_redes{
+    width: 100%;
+    padding: 50px 0;
+    border-top: 2px solid #fff;
+}
+.container_redes,
+.largura_limites,
+.Redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.largura_limites{
+    width: 1024px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.paragarfo{
+    font-size: 22px;
+    line-height: 36px;
+    color: #32333c;
+}
+.Redes{
+    gap: 15px;
+}
+.redes_img,
+.img_logo{
+    width: 50px;
+    height: 50px;
+}
+
+.dark_mode .container_redes{
+    background-color: #252525;
+}
+.dark_mode .paragarfo{
+    color: #CCCCCC;
+}
