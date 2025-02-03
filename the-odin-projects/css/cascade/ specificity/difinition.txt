@@ -1,0 +1,10 @@
+cascata == E O QUE DETERMINA QUAIS REGRAS CSS SERAO APLICADAS AO NOSSO HTML
+
+especificidade == E A TECNICA DE ESPECIFICAR MELHOR OS SELETORES PARA APLICAR REGRAS CSS
+
+1- seletor de id == tem maior especificidade, ou seja podemos chama-lo de dominante.
+ por que seletor de class, seletor de tag e outos, o seletor de id e o mais especifico, ou seja, dominante
+
+2- seletor de class == E O MAIS ESPECIFICO EM COMPARACAO COM O SELETOR DE TAG E OUTROS, MENOS O SELETOR DE ID (DOMINANTE)
+
+3- seletor de tag == E O MAIS ESPECIFICO EM COMPARACAO COM OUTROS SELETORES, MENOS O SELETOR DE ID (DOMINANTE)
