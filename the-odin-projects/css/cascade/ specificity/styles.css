@@ -1,0 +1,83 @@
+/*ESPECIFICIDADE USANDO CLASSES*/
+.text-blue{
+    color: blue;
+}
+
+/*Este ESTILO E QUE SERA APLICADO, POR QUE O SELETOR ESTA MAIS ESPECIFICO*/
+.ancestral01 .text-red{
+    color: red;
+}
+
+/*ESPECIFICIDADE USANDO ID*/ 
+/*ESTA E A REGRA QUE SERA APLICADA PELA CASTATA, POR QUE O ID E MAIS ESPECIFICO, OU SEJA, dominante*/
+#ancestral02-text-blue{
+    color: blue;
+}
+.ancestral02 .ancestral02-text-red{
+    color: red;
+}
+
+#ancestral03-text-yellow{
+    background-color: green;
+    color: green;
+}
+/*ESTA E A REGRA QUE SERA APLICADA PELA CASTATA.
+ MAS NEM O SELETOR ACIMA COMO ESTE SELETOR E MAIS ESPECIFICO, A CASTATA VERIFICA O NUMEO DE SELETORES E APLICA A REGRA ONDE AHA MAIS SELETORES.
+ AQUI APENAS O  background-color: green; SERA APLICADO*/
+.ancestral03 #ancestral03-text-yellow{
+    color: yellow;
+}
+
+/*EQUI NMENHUM SELETOR E MAIS ESPECIFICO, SENDO ASSIM CADA UM TERA SEU PROPRIO ESTILO*/
+.ancestral04 .ancestral04-text01{
+    font-size: 24px;
+}
+.chain.ancestral04-text02{
+    font-size: 28px;
+}
+
+/*AQUI A REGRA CSS DA ULTIMA REPETICAO E QUE SERA APLICADA
+.chain.ancestral04-text02{
+    font-size: 28px;
+}
+.chain.ancestral04-text02{
+    font-size: 30px;
+}
+.chain.ancestral04-text02{
+    font-size: 40px;
+}*/
+
+/*
+*{
+color: black;
+}
+
+ESTA E A REGRA CSS QUE SERA APLICADA POR QUE O SELETOR E MAIS ESPECIFICO EM RELACAO AO SELETOR UNUVERSAL ( * )
+h1{
+color: orange;
+}*/
+
+#Heritage{
+    font-size: 30px;
+    font-weight: bold;
+}
+#text-title{
+    font-weight: bold;
+}
+/*GERALMENTE OS ELEMENTOS FILHOS HERDAM OS PROPRIEDADES DO PAI QUE ESTAM BASEADAS NA TIPOGRAFIA : font-size, font-family, font-weight, color etc
+AQUI O ELEMENTO NAO VAI HERDAR OS ESTILOS DO PAI POR QUE ELE JA ESTA ESPECIFICADO*/
+
+#Heritage-ancestral{
+    color: chocolate;
+}
+/*ESTA E A REGRA QUE SERA APLICADA*/
+.Heritage-ancestral-text{
+    color: blueviolet;
+}
+
+#Heritage-ancestral02{
+    color: chartreuse;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
