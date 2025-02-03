@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Cascata - Especificidade</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <p>Cascata - Especificidade</p>
+
+        <!--Especificidade usando classes-->
+        <h1>Especificidade - classes</h1>
+        <div class="ancestral01">
+            <p class="text-blue text-red">Texto vermelho</p>
+        </div>
+
+        <br>
+        <!--Especificidade usando id-->
+        <h2>Especificidade - id</h2>
+        <div class="ancestral02">
+            <p class="ancestral02-text-red" id="ancestral02-text-blue">Texto azul</p>
+        </div>
+        <div class="ancestral03">
+            <p class="ancestral03-text-green" id="ancestral03-text-yellow">Texto amarelo</p>
+        </div>
+
+        <br>
+        <h3>Nenhum tem maior Especificidade</h3>
+        <div class="ancestral04">
+            <p class="ancestral04-text01">Et pariatur consequatur officia. Necessitatibus?</p>
+            <p class="chain ancestral04-text02">consequatur quibusdam ullam! Autem, maxime?</p>
+            <p class="chain ancestral04-text03">eos doloribus praesentium soluta modi vitae facilis!</p>
+        </div>
+
+        <br>
+        <!--Heranca das propridades-->
+        <p id="Heritage">Heranca</p>
+        <p id="text-title">Nao havera heranca de estilos</p>
+        <div id="Heritage-ancestral">
+            <p class="Heritage-ancestral-text">Cumque reiciendis aspernatur voluptate laudantium! Recusandae totam amet voluptatibus ducimus eius ut aperiam?</p>
+        </div>
+        <br>
+        <p id="text-title">Havera heranca de estilos</p>
+        <div id="Heritage-ancestral02">
+            <p class="Heritage-ancestral-text02">Cumque reiciendis aspernatur voluptate laudantium! Recusandae totam amet voluptatibus ducimus eius ut aperiam?</p>
+        </div>
+    </body>
+</html>
