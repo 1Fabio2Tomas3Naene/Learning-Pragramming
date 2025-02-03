@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bold-paragrapho01,
+#simple-bold-paragrapho,
+.small-text-child-bold{
+    font-weight: bold;
+}
+#bold-paragrapho01{
+    font-size: 28px;
+}
+.ancestral-button-child,
+.thin-text,
+#ancestral-text{
+    font-size: 24px;
+}
+#ancestral-button .button-confirm{
+    font-weight: bold;
+}
+.small-text-child-bold{
+    font-size: 18px;
+}
