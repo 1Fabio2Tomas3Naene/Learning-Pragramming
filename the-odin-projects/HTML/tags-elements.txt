@@ -30,8 +30,19 @@
 <li></li>
 </ul>
 <ol>
-<li></li>
+<li value=""></li>
 </ol>
+<ol type="1"></ol>
+<ol type="a"></ol>
+<ol type="A"></ol>
+<ol type="i"></ol>
+<ol type="I"></ol>
+<ol reversed></o>
+<ol start=""></ol>
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
 <div></div>
 </body>
 </html>
