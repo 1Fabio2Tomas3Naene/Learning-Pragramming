@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*THIS PROPERTY ( outline: ; ) AS THE NAME SHOW IT PUT A OUTLINE OF THE ELEMET SELECTED*/
+/*THIS IS THE SINTAX OF USE THIS PROPERTY*/
+.paragrapho-outline{
+    outline: 2px solid red;
+}
+.box-one,
+.box-two{
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    padding: 20px;
+}
+.box-one{
+    background-color: rebeccapurple;
+    color: red;
+    border: 10px solid currentColor;
+    box-sizing: content-box;
+}
+.box-two{
+    background-color: aqua;
+    color: black;
+    border: 10px solid currentColor;
+    box-sizing: border-box;
+}
+
+.border{
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid;
+}

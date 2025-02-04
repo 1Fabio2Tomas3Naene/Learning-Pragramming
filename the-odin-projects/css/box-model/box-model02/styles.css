@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+}
+p,
+.first-list{
+    border: 2px solid chartreuse;
+    padding: 0.2em;
+}
+.block,
+li{
+    border: 2px solid blue;
+    padding: 0.2em;
+}
+
+/* display: flex; the items inside of this unordered list will be flexble, this is, one item in front of other*/
+.first-list{
+    display: flex;
+    list-style-type: none;
+}
+/*display: block; using this value the elements will be aligned one in down of other*/
+.block{
+    display: block;
+}
+
+
+.second-list{
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+.inline{
+    display: inline;
+}
+
