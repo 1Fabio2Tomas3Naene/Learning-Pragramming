@@ -84,4 +84,9 @@ outline: 10px;
 box-sizing: border-box;
 box-sizing: content-box;
 *{}
+display: flex;
+display: inline;
+display: block;
+display: inline-block
+position: fixed;
 
