@@ -41,7 +41,7 @@
     flex: 1;;
 }
 
-/*SUSANDO flex-grow: ; flex-shrink: ; e flex-basis: ;*/
+/*USANDO flex-grow: ; flex-shrink: ; e flex-basis: ;*/
 .ancestral03-display-flex{
     height: 400px;
     color: darkgoldenrod;
@@ -64,4 +64,177 @@
 .ancestral03-display-flex .child{
     width: 150px;
     flex-shrink: 1;
+}
+
+/*Usando flex: inicial:*/
+.ancestral04-display-flex{
+    height: 500px;
+    border: 2px solid chartreuse;
+    display: flex;
+}
+.ancestral04-display-flex .box01{
+    background-color: darkslateblue;
+}
+.ancestral04-display-flex .box02{
+    background-color: forestgreen;
+}
+.ancestral04-display-flex .box03{
+    background-color: olive;
+}
+.ancestral04-display-flex .child{
+    width: 300px;
+    flex: inicial;
+}
+
+/*sintax do uso do flex: auto;*/
+.ancestral05-display-flex{
+    height: 500px;
+    border: 2px solid darkred;
+    display: flex;
+}
+.ancestral05-display-flex .box01{
+    background-color: deeppink;
+}
+.ancestral05-display-flex .box02{
+    background-color: gold;
+}
+.ancestral05-display-flex .box03{
+    background-color: grey;
+}
+.ancestral05-display-flex .child{
+    width: 400px;
+    flex: auto;
+}
+
+/*sintax do flex: none;*/
+.ancestral06-display-flex{
+    height: 500px;
+    border: 10px dashed seagreen;
+    display: flex;
+}
+.ancestral06-display-flex .box01{
+    background-color: dimgray;
+}
+.ancestral06-display-flex .box02{
+    background-color: yellow;
+}
+.ancestral06-display-flex .box03{
+    background-color: chocolate;
+}
+.ancestral06-display-flex .child{
+    width: 400px;
+    flex: none;
+}
+
+/*usando flex-direction: ;*/
+.ancestral07-display-flex{
+    width: 60%;
+    height: 500px;
+    border: 2px solid darkorange;
+    display: flex;
+    flex-direction: column;
+}
+.ancestral07-display-flex .box01{
+    background-color: lightblue;
+}
+.ancestral07-display-flex .box02{
+    background-color: firebrick;
+}
+.ancestral07-display-flex .box03{
+    background-color: greenyellow;
+}
+.ancestral07-display-flex .child{
+    height: 300px;
+    flex: 1 1 auto;
+}
+
+/*trabalhando com justify-content: ;*/
+/*justify-content: space-between;*/
+.ancestral08-display-flex{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid darkorange;
+    display: flex;
+    justify-content: space-between;
+}
+.ancestral08-display-flex .box01{
+    background-color: purple;
+}
+.ancestral08-display-flex .box02{
+    background-color: aqua;
+}
+.ancestral08-display-flex .box03{
+    background-color: hotpink;
+}
+.ancestral08-display-flex .child{
+    width: 300px;
+    height: 300px;
+}
+
+/*trabalhando com justifu-content: center;*/
+.ancestral09-display-flex{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid darkorange;
+    display: flex;
+    justify-content: center;
+}
+.ancestral09-display-flex .box01{
+    background-color: purple;
+}
+.ancestral09-display-flex .box02{
+    background-color: aqua;
+}
+.ancestral09-display-flex .box03{
+    background-color: hotpink;
+}
+.ancestral09-display-flex .child{
+    width: 300px;
+    height: 300px;
+}
+
+/*trabalhando com align-items: ;*/
+.ancestral10-display-flex{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid darkorange;
+    display: flex;
+    align-items: center;
+}
+.ancestral10-display-flex .box01{
+    background-color: purple;
+}
+.ancestral10-display-flex .box02{
+    background-color: aqua;
+}
+.ancestral10-display-flex .box03{
+    background-color: hotpink;
+}
+.ancestral10-display-flex .child{
+    width: 300px;
+    height: 300px;
+}
+
+/*trabalhando com gap: ;*/
+.ancestral11-display-flex{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.ancestral11-display-flex .box01{
+    background-color: purple;
+}
+.ancestral11-display-flex .box02{
+    background-color: aqua;
+}
+.ancestral11-display-flex .box03{
+    background-color: hotpink;
+}
+.ancestral11-display-flex .child{
+    width: 300px;
+    height: 300px;
 }
