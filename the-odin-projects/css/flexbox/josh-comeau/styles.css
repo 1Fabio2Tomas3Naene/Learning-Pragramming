@@ -8,15 +8,14 @@
 .width01{
     padding: 20px;
     background-color: black;
-}
-#container01{
-    padding: 20px;
-    border: 2px solid #808080;
     display: flex;
-    justify-content: space-between;
-    
+    flex-direction: column;
+    align-items: center;
 }
-#container01 .box{
+
+.box{
+    width: 100px;
+    /*height: 100px;*/
     padding: 10px;
     margin: 10px 0;
     border: 3px solid #6f7983;
@@ -24,4 +23,163 @@
     background-color: #1a1f23;
     color: #fff;
     font-size: 24px;
+}
+#container01,
+#container02,
+#container03,
+#container04,
+#container05,
+#container06,
+#container07,
+#container08,
+#container09,
+#container10,
+#container11,
+#container12,
+#container13,
+#container14,
+#container15,
+#container16,
+#container17,
+#container18,
+#container19{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #808080;
+    display: flex;
+    gap: 20px;
+}
+p{
+   text-align: center;
+   margin: 30px 0;
+}
+/*justify-content: flex-start;*/
+#container01{
+    justify-content: flex-start;
+}
+
+/*justify-content: flex-end;*/
+#container02{
+    justify-content: flex-end;
+}
+/*justify-content: space-between;*/
+#container03{
+    justify-content: space-between;
+}
+
+/*justify-content: space-around;*/
+#container04{
+    justify-content: space-around;
+}
+
+/*justify-content: space-evenly;*/
+#container05{
+    justify-content: space-evenly;
+}
+/*justify-content: center;*/
+#container06{
+    justify-content: center;
+}
+
+/*align-alitems: ;*/
+#container07,
+#container08,
+#container09,
+#container10,
+#container11{
+    height: 400px;
+}
+
+/*align-alitems: flex-start;*/
+#container07{
+    align-items: flex-start;
+}
+
+/*align-alitems: flex-end;*/
+#container08{
+    align-items: flex-end;
+}
+
+/*align-alitems: stretch;*/
+#container09 .child.box{
+    width: auto;
+    height: auto;
+}
+#container09{
+    align-items: stretch;;
+}
+
+/*align-alitems: baseline;*/
+#container10{
+    align-items: baseline;
+}
+
+/*align-self: ;*/
+/*align-self: center;*/
+#container11 .child01{
+    align-self: center;
+}
+
+/*align-self: flex-start;*/
+#container11 .child02{
+    align-self: flex-start;
+}
+
+/*align-self: flex-end;*/
+#container11 .child03{
+    align-self: flex-end;
+}
+
+/*align-self: baseline;*/
+#container11 .child04{
+    align-self: baseline;
+}
+
+/*align-content: ;*/
+.child.box{
+    width: 200px;
+    height: 200px;
+    
+}
+
+#container12,
+#container13,
+#container14,
+#container15,
+#container16,
+#container17,
+#container18,
+#container19{
+    height: 700px;
+    width: 1024px;
+    flex-wrap: wrap;
+}
+
+/*align-content: flex-start;*/
+#container12{
+    align-content: flex-start;
+}
+/*align-content: flex-end;*/
+#container13{
+    align-content: flex-end;
+}
+/*align-content: center;*/
+#container15{
+    align-content: center;
+}
+/*align-content: center;*/
+#container16{
+    align-content: stretch;
+}
+/*align-content: space-around;*/
+#container17{
+    align-content: space-around;
+}
+/*align-content: space-between;*/
+#container18{
+    align-content: space-between;
+}
+/*align-content: space-evenly;*/
+#container19{
+    align-content: space-evenly;
 }
