@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
-
+p{
+    text-align: center;
+}
 /*USANDO display: flex;*/
 .ancestral01-display-flex{
     display: flex;
@@ -133,6 +135,7 @@
     border: 2px solid darkorange;
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
 }
 .ancestral07-display-flex .box01{
     background-color: lightblue;
@@ -223,7 +226,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    column-gap: 40px;
 }
 .ancestral11-display-flex .box01{
     background-color: purple;
@@ -235,6 +238,59 @@
     background-color: hotpink;
 }
 .ancestral11-display-flex .child{
+    width: 300px;
+    height: 300px;
+}
+
+/*order === e usado nos itens para indicar em que posicao o item deve aparecer*/
+.ancestral12-display-flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.ancestral12-display-flex .box01{
+    background-color: purple;
+    order: 3;
+}
+.ancestral12-display-flex .box02{
+    background-color: aqua;
+    order: 2;
+}
+.ancestral12-display-flex .box03{
+    background-color: hotpink;
+    order: -1;
+}
+.ancestral12-display-flex .box04{
+    background-color: chartreuse;
+    order: 1;
+
+}
+.ancestral12-display-flex .child{
+    width: 300px;
+    height: 300px;
+    font-size: 40px;
+    color: black;
+}
+
+/*usando flex-direction: column-reverse*/
+.ancestral13-display-flex{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ancestral13-display-flex .box01{
+    background-color: purple;
+}
+.ancestral13-display-flex .box02{
+    background-color: aqua;
+}
+.ancestral13-display-flex .box03{
+    background-color: hotpink;
+}
+.ancestral13-display-flex .box04{
+    background-color: chartreuse;
+
+}
+.ancestral13-display-flex .child{
     width: 300px;
     height: 300px;
 }

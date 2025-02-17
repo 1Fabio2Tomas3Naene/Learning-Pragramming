@@ -60,7 +60,8 @@ p{
 
 /*justify-content: flex-end;*/
 #container02{
-    justify-content: flex-end;
+    height: 500px;
+    justify-content: flex-start;
 }
 /*justify-content: space-between;*/
 #container03{
@@ -166,6 +167,7 @@ p{
 /*align-content: center;*/
 #container15{
     align-content: center;
+    gap: 10px 50px;
 }
 /*align-content: center;*/
 #container16{
@@ -182,4 +184,13 @@ p{
 /*align-content: space-evenly;*/
 #container19{
     align-content: space-evenly;
+}
+/*quebra de linha inversa*/
+#container20{
+    width: 800px;
+    height: 1000px;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
 }
