@@ -1,11 +1,78 @@
 <!DOCTYPE  html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
-        <tile>variables and operators</tile>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>variables and operators</title>
+        <!-- INICIO Javascript externo para scripts maiores
+        <script src="javascript.js"></script>
+        -->
     </head>
     <body>
-        
+        <!--Javascript inteino para escripts nemores-->
+        <script>
+            console.log("console.log('Hello, World!');")
+            console.log("Hello, World!");
+            console.log("\n\n");
+
+            //VARIAVEIS
+            console.log("VARIAVEIS")
+            console.log('let name = "Fabio";');
+            console.log('let surname = "Tomas";');
+            let name = "Fabio";
+            let surname = "Tomas";
+            console.log(name);
+            console.log(surname);
+            console.log("\n\n");
+
+            //REATRIBUICAO DE VARIAVEIS
+            console.log("REATRIBUICAO DE VARIAVEIS");
+            console.log("let age = 15;")
+            console.log("age = 18;")
+            let age = 15;
+            console.log(age);
+
+            age = 18;
+            console.log(age);
+            console.log("\n\n");
+
+            //O JAVASCRIPT NAO E TIPADO
+            console.log("O JAVASCRIPT NAO E TIPADO");
+            console.log('let nameTwo = "Naene";')
+            console.log('nameTwo = 25;')
+            let nameTwo = "Naene";
+            console.log(nameTwo);
+
+            nameTwo = 25;
+            console.log(nameTwo);
+            console.log("\n\n");
+
+            //VARIAVEIS NAO REATRIBUIVEIS
+            console.log("VARIAVEIS NAO REATRIBUIVEIS\n");
+
+            console.log("const pi = 3.14; \nconsole.log(pi);\n Aqui estara tudo bem")
+            const pi = 3.14;
+            console.log(pi);
+            console.log("\n\n");
+
+            console.log("mais se reatribuirmos esta constante:");
+            console.log("pi = 18; \nconsole.log(pi); \n isso vai dar este erro: \nindex.html:48 Uncaught TypeError: Assignment to constant variable.\n")
+            console.log("\n\n");
+
+            //MATEMATICA BASICA NO JS
+            console.log("MATEMATICA BASICA NO JS")
+            console.log("(2 + 2) - 50 * (5-2)");
+            let calculation = (2 + 2) - 50 * (5-2);
+            console.log(calculation);
+            console.log("\n\n");
+
+            console.log("Achando o valor de delta \na = 7\n b = 10\n c = 2")
+            let a = 7;
+            let b = 10;
+            let c = 2;
+            let delta = "Δ = ";
+            let deltaSolution = (b * b) - 4 *(a * c);
+            console.log(delta + deltaSolution);
+        </script>
     </body>
 </html>
