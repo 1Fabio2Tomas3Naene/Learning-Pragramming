@@ -11,6 +11,7 @@
     <body>
         <!--Javascript inteino para escripts nemores-->
         <script>
+            'use strict';
             console.log("console.log('Hello, World!');")
             console.log("Hello, World!");
             console.log("\n\n");
@@ -73,6 +74,64 @@
             let delta = "Δ = ";
             let deltaSolution = (b * b) - 4 *(a * c);
             console.log(delta + deltaSolution);
+            console.log("\n\n");
+
+            //REGRAS NA DECLARACAO DE VARIAVEIS
+            console.log("REGRAS NA DECLARACAO DE VARIAVEI");
+            console.log("uma variavel nao deve comecar com digitos ou numeros: \nlet 1name = 'Fabio'  ISSO VAI VAR ERRO:\nSyntaxError: Invalid or unexpected token\n\n");
+            console.log('uma variavel nao deve ter duas palavras separadas por espaco e outros simbolos except: $ e _ DO CONTARIO UM ERRO DARA:\n let -name = "Fabiio"; DARA ESTE ERRO: \nUncaught SyntaxError: Invalid left-hand side in assignment\nlet my-name = "Fabio"; DARA ESTE ERRO:\nSyntaxError: Unexpected token "-"\nlet surname- = "Tomas"; DARA ESTE ERRO:\n SyntaxError: Unexpected token "-"');
+            console.log("\n\n");
+
+            let Name = "Fabio";
+            let admin = Name;
+            console.log(Name);
+            console.log(admin);
+            console.log("\n\n");
+
+            //OPERACOES ARITMETICAS NO JS
+            console.log("----------------------OPERACOES ARITMETICAS NO JS-----------------------")
+            console.log(`USANDO NUMEROS LITERAIS OU VARIAVEIS
+            let addition = 2 + 2;
+            let operand_1 = 5;
+            let operand_2 = 10;
+            let resultedOfOperation = operand_1 + operand_2;`)
+
+            let addition = 2 + 2;
+            let operand_1 = 5;
+            let operand_2 = 10;
+            let resultedOfOperation = operand_1 + operand_2;
+            console.log(addition);
+            console.log(resultedOfOperation);
+            console.log("\n\n");
+
+            console.log(` 
+            let x = 5;
+            let y = 2;
+            let z = Math.pow(x,y);`)
+            let x = 5;
+            let y = 2;
+            let z = Math.pow(x,y);
+            console.log(z);
+            console.log("\n\n");
+
+            //FORMAS DE ESCREVER NUMEROS
+            console.log("FORMAS DE ESCREVER NUMEROS");
+            console.log(`
+            - inteiros: let y = 3;
+            - decimais: let x = 3.14;
+            `)
+          
+            let operand = 32;
+            console.log(operand.toString(2));
+            console.log(operand.toString(8));
+            console.log(operand.toString(10));
+            console.log(operand.toString(12));
+            console.log(operand.toString(16));
+            console.log(operand.toString(32));
+
+            let X = 5;
+            let Y = "5";
+            console.log(Y === X);
         </script>
     </body>
 </html>
